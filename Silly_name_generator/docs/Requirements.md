@@ -1,4 +1,4 @@
-Using the Python Community’s Style Guide
+##### Using the Python Community’s Style Guide
 
 PEP 8 (https://www.python.org/dev/peps/pep-0008/) sets standards for naming conventions; use of blank lines, tabs, and spaces; maximum line length; comments; and so on.
 Checking Your Code with Pylint
