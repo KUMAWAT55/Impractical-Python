@@ -7,7 +7,7 @@ Pylint is a source-code, bug and quality checker for the Python programming lang
 
 --INSTALLING PYLINT--
 
-sudo apt-get install Pylint
+```sudo apt-get install Pylint```
 
 --RUNNING PYLINT--
 
