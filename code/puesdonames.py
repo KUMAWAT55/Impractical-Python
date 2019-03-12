@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""This script prompts a user to GENERATE  random names"""
+"""This script prompts a user to GENERATE random names from First and last name"""
 import sys
 import random
 print("Welcome to the Psych 'Sidekick Name Picker.\n")
