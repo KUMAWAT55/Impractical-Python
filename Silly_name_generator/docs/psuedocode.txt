@@ -1,0 +1,12 @@
+A very high-level pseudocode for our funny name generator could look like this:
+STEP 1 : Load a list of first names
+STEP 2 : Choose a first name at random
+STEP 3 : Assign the name to a variable
+STEP 4 : Choose a surname at random
+STEP 5 : Assign the name to a variable
+STEP 6 : Print the names to the screen in order and in red font
+STEP 7 : Ask the user to quit or play again
+STEP 8 :  If user plays again:
+            repeat
+          If user quits:
+            end and exit
