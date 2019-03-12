@@ -6,6 +6,7 @@ Checking Your Code with Pylint
 Pylint is a source-code, bug and quality checker for the Python programming language. It follows the style recommended by PEP 8, the Python style guide
 
 --INSTALLING PYLINT--
+
 sudo apt-get install Pylint
 
 --RUNNING PYLINT--
