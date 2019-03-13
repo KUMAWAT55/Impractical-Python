@@ -1,6 +1,6 @@
-'''Binary Search algorithm code in recursive manner'''
-def binary_search_rec(item, elements, first, last, count):
-    '''Function Implemented in recursive manner
+'''Binary Search algorithm code in iterative manner'''
+def binary_search_iter(item, elements, first, last, count):
+    '''Function Implemented in Iterative manner
         ----------------------------------------------
         Complexity Terms
         ----------------------------------------------
@@ -8,12 +8,14 @@ def binary_search_rec(item, elements, first, last, count):
         Best-case performance	     O(1)
         Average performance          O(log n)
         Worst-case space complexity  O(1)'''
-    if last > first:
+    print("[Iterative Binary search function called]")
+    while last > first:
         count = count+1
         mid = int((first+(last-1))/2)
         if elements[mid] == item:
             return "Found at Index : {} \nTotal Number of iterations : {}".format(mid, count)
         elif elements[mid] > item:
-            return binary_search_rec(item, elements, first, mid-1, count)
-        return binary_search_rec(item, elements, mid+1, last, count)
+            last = mid-1
+        else:
+            first = mid+1
     return "Item Not Present !!!"

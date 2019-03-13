@@ -21,6 +21,14 @@ def main():
         print("You Have Selected Binary_Search_recursive algorithm")
         elements = [int(i) for i in input("Enter List of number in Ascending Order\n").split()]
         item = int(input("Enter Item you want to Search :\n"))
+        print("[Recursive Binary search function called]")
         print(binary_search_rec(item, elements, 0, len(elements), 0))
+#Binary_Search_iterative algorithm_to_call
+    if algorithm_to_call == 3:
+        from binary_search_iterative import binary_search_iter
+        print("You Have Selected Binary_Search_iterative algorithm")
+        elements = [int(i) for i in input("Enter List of number in Ascending Order\n").split()]
+        item = int(input("Enter Item you want to Search :\n"))
+        print(binary_search_iter(item, elements, 0, len(elements), 0))
 if __name__ == '__main__':
     main()
