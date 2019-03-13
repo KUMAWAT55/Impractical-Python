@@ -1,2 +1,2 @@
 1 : PrimeCheck
-2 : @nd One
+2 : Binary_Search_recursive
