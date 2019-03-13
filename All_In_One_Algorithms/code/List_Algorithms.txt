@@ -1,3 +1,4 @@
 1 : PrimeCheck
 2 : Binary_Search_recursive
 3 : Binary_Search_Iterative
+4 : Linear_Search

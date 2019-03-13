@@ -30,5 +30,12 @@ def main():
         elements = [int(i) for i in input("Enter List of number in Ascending Order\n").split()]
         item = int(input("Enter Item you want to Search :\n"))
         print(binary_search_iter(item, elements, 0, len(elements), 0))
+#Linear Search algorithm_to_call
+    if algorithm_to_call == 4:
+        from linear_search import linear_search
+        print("You Have Selected linear search algorithm")
+        elements = [int(i) for i in input("Enter List of numbers\n").split()]
+        item = int(input("Enter number you want to search :\n"))
+        print(linear_search(elements, item))
 if __name__ == '__main__':
     main()
