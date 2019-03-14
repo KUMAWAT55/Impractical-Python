@@ -3,3 +3,4 @@
 3 : Binary_Search_Iterative
 4 : Linear_Search
 5 : Jump_Search
+6 : Yet to come
