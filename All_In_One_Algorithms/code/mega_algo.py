@@ -37,5 +37,14 @@ def main():
         elements = [int(i) for i in input("Enter List of numbers\n").split()]
         item = int(input("Enter number you want to search :\n"))
         print(linear_search(elements, item))
+#Jump Search algorithm_to_call
+    if algorithm_to_call == 5:
+        import math
+        from jump_search import jump_search
+        print("You Have Selected jump search algorithm")
+        elements = [int(i) for i in input("Enter List of numbers\n").split()]
+        item = int(input("Enter number you want to search :\n"))
+        print(jump_search(elements, item, 0, int(math.sqrt(len(elements))), 0))
+
 if __name__ == '__main__':
     main()
